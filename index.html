@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Link to the CSS file to apply styles to the HTML elements -->
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <!-- Spinning banner that welcomes the user to the site -->
+        <div id="banner" class="spinning-banner">
+            Welcome to our Website
+        </div>
+
+        <!-- Login button that will open the login modal when clicked -->
+        <button id="loginButton">Login</button>
+
+        <!-- Login modal that gets displayed when the login button is clicked -->
+        <div id="loginModal" class="modal">
+            <div class="modal-content">
+                <!-- Close button for the modal -->
+                <span class="close-button">&times;</span>
+
+                <!-- Form for logging in -->
+                <form>
+                    <!-- Field for entering username -->
+                    <label for="username">Username:</label><br>
+                    <input type="text" id="username" name="username"><br>
+
+                    <!-- Field for entering password -->
+                    <label for="password">Password:</label><br>
+                    <input type="password" id="password" name="password"><br>
+
+                    <!-- Button for submitting the login form -->
+                    <button type="button" id="submitBtn">Submit</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Link to the JavaScript file to handle the functionality of the site -->
+        <script src="script.js"></script>
+    </body>
+</html>
